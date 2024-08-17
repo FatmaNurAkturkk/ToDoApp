@@ -10,7 +10,7 @@ namespace ToDoApp.Dtos.WorkDtos
 {
     public class WorkCreateDto:IDto
     {
-        //[Required(ErrorMessage ="Definition is required!")] -->DataAnnitions ile yapıldı srp ye aykırı fluentvalidation kullan
+        //[Required(ErrorMessage ="Definition is required!")] 
         public string? Defination { get; set; }
         public bool IsCompleted { get; set; }
     }
