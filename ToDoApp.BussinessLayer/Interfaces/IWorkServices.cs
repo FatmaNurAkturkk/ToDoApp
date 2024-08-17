@@ -14,7 +14,7 @@ namespace ToDoApp.BussinessLayer.Interfaces
     {
         Task<IResponse<List<WorkListDtos>>> GetAll();
         Task<IResponse<WorkCreateDto>> Create(WorkCreateDto dto);
-        //Task<WorkListDtos> GetById(int id); --> Mapper,refactoring işleminden sonra yenisini yaptık
+        //Task<WorkListDtos> GetById(int id); 
         Task<IResponse<IDto>> GetById<IDto>(int id);
         Task<IResponse> Remove(int id);
         Task<IResponse<WorkUpdateDto>> Update(WorkUpdateDto dto);
