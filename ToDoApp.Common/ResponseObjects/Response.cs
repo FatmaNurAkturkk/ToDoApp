@@ -18,7 +18,7 @@ namespace ToDoApp.Common.ResponseObjects
             Message = message;
         }
         public string Message { get; set; }
-        //public bool IsSuccess { get; set; } burada birçok hatayla karşılaşma durumuna göre enum oluşturduk
+        //public bool IsSuccess { get; set; } 
         public ResponseType ResponseType { get; set; }
     }
     public enum ResponseType
